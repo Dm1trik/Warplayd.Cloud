@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    font-family: 'Oswald', sans-serif;
+    background: #141C24;
+}
+h1{
+    position: absolute;
+    width: 168px;
+    height: 48px;
+    left: 700px;
+    top: 227px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.arrow{
+    position: absolute;
+    left: 650px;
+    top: 243px;
+}
+.contacts-vk{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 600px;
+    top: 400px;
+}
+.contacts-discord{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 740px;
+    top: 400px;
+}
+.contacts-youtube{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 890px;
+    top: 400px;
+}
+.contacts-vk:hover,
+.contacts-discord:hover, .contacts-youtube:hover{
+    transition: 0.7s;
+    background: #00C5FF;
+    border-radius: 25%;
+}

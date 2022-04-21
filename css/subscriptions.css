@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    background: #141C24;
+}
+.arrow{
+    position: absolute;
+    left: 520px;
+    top: 110px;
+}
+h1{
+    position: absolute;
+    width: 316px;
+    height: 39px;
+    left: 600px;
+    top: 97px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.subscriptions{
+    position: absolute;
+    width: 90%;
+    height: 593px;
+    left: 180px;
+    top: 178px;
+}
+/* common styles */
+.subscriptions-blocks-1, 
+.subscriptions-blocks-2, .subscriptions-blocks-3{
+    position: absolute;
+    width: 400px;
+    height: 543px;
+    left: 0px;
+    top: 0px;
+    background: #1F2631;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.subscriptions-blocks-2{
+    position: absolute;
+    left: 410px;
+}
+.subscriptions-blocks-3{
+    position: absolute;
+    left: 820px;
+}
+.subscriptions-blocks-title{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 47px;
+    top: 76px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.subscriptions-blocks-price{
+    position: absolute;
+    width: 180px;
+    height: 33.79px;
+    left: 47px;
+    top: 181px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.subscriptions-blocks-text{
+    position: absolute;
+    width: 311px;
+    height: 173.76px;
+    left: 47px;
+    top: 236px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 150%;
+    color: #ABABAB;
+}
+.subcriptions-blocks-btn{
+    position: absolute;
+    width: 321px;
+    height: 70px;
+    left: 37px;
+    top: 426px;
+    background: #00C5FF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    color: #141C24;
+    cursor: pointer;
+}
+.subcriptions-blocks-btn:hover{
+    border: 3px solid #FFFFFF;
+}
+.subscriptions-blocks-1:hover, 
+.subscriptions-blocks-2:hover, .subscriptions-blocks-3:hover{
+    transition: 0.3s;
+    background: #00C5FF;
+}
+
+
+/* .subscriptions-blocks hover .subscriptions-blocks-title */
+.subscriptions-blocks-1:hover .subscriptions-blocks-title{
+    transition: 0.7s;
+    color: #141C24;
+}
+.subscriptions-blocks-2:hover .subscriptions-blocks-title{
+    transition: 0.7s;
+    color: #141C24;
+}
+.subscriptions-blocks-3:hover .subscriptions-blocks-title{
+    transition: 0.7s;
+    color: #141C24;
+}
+
+
+/* .subscriptions-blocks hover .subscriptions-blocks-price */
+.subscriptions-blocks-1:hover .subscriptions-blocks-price{
+    transition: 0.7s;
+    color: #141C24;
+}
+.subscriptions-blocks-2:hover .subscriptions-blocks-price{
+    transition: 0.7s;
+    color: #141C24;
+}
+.subscriptions-blocks-3:hover .subscriptions-blocks-price{
+    transition: 0.7s;
+    color: #141C24;
+}
+
+
+/* .subscriptions-blocks hover .subscriptions-blocks-text */
+.subscriptions-blocks-1:hover .subscriptions-blocks-text{
+    transition: 0.7s;
+    color: #000000;
+}
+.subscriptions-blocks-2:hover .subscriptions-blocks-text{
+    transition: 0.7s;
+    color: #000000;
+}
+.subscriptions-blocks-3:hover .subscriptions-blocks-text{
+    transition: 0.7s;
+    color: #000000;
+}
+
+
+/* .subscriptions-blocks hover .subcriptions-blocks-btn */
+.subscriptions-blocks-1:hover .subcriptions-blocks-btn{
+    transition: 1s;
+    background: #141C24;
+    color: #F1F8FF;
+}
+.subscriptions-blocks-2:hover .subcriptions-blocks-btn{
+    transition: 1s;
+    background: #141C24;
+    color: #F1F8FF;
+}
+.subscriptions-blocks-3:hover .subcriptions-blocks-btn{
+    transition: 1s;
+    background: #141C24;
+    color: #F1F8FF;
+}
+.available-subscriptions-down-line{
+    position: absolute;
+    width: 582px;
+    height: 0px;
+    left: 330px;
+    top: 850px;
+    border: 1px solid #00C5FF;
+    transform: rotate(180deg);
+}

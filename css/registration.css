@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    background: #141C24;
+}
+.signin{
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    left: 600px;
+    top: 124px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    width: 84px;
+    height: 48px;
+    left: 900px;
+    top: 124px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    text-decoration: none;
+}
+.login:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+.arrow{
+    position: absolute;
+    left: 530px;
+    top: 140px;
+}
+.tel-email{
+    position: absolute;
+    width: 390px;
+    height: 75px;
+    left: 600px;
+    top: 204px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 24px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.password{
+    position: absolute;
+    width: 390px;
+    height: 75px;
+    left: 600px;
+    top: 294px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 24px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.registration-btn{
+    position: absolute;
+    width: 251px;
+    height: 61px;
+    left: 680px;
+    top: 399px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0 40px 0 0;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+.registration-btn:hover{
+    transition: 0.7s;
+    background: #00C5FF;
+    color: #FFFFFF;
+}
+.check{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 620px;
+    top: 515px;
+}
+.agreement{
+    position: absolute;
+    width: 382px;
+    height: 112px;
+    left: 670px;
+    top: 514px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.line-1{
+    position: absolute;
+    width: 117px;
+    height: 0px;
+    left: 640px;
+    top: 675px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(180deg);
+}
+.login-other{
+    position: absolute;
+    width: 70px;
+    height: 14px;
+    left: 780px;
+    top: 668px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.line-2{
+    position: absolute;
+    width: 117px;
+    height: 0px;
+    left: 873px;
+    top: 675px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(180deg);
+}
+.login-list{
+    position: absolute;
+    width: 200.8px;
+    height: 30px;
+    left: 715px;
+    top: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.login-list-2{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 760px;
+    top: 750px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

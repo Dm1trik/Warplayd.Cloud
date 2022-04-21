@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    background: #141C24;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 500px;
+    top: 314px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.arrow{
+    position: absolute;
+    left: 400px;
+    top: 330px;
+}
+.dowload-list{
+    position: absolute;
+    width: 583px;
+    height: 100px;
+    left: 500px;
+    top: 487px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.dowload-list>li>a>img:hover{
+    transition: 0.7s;
+    background: yellow;
+    border-radius: 25%;
+}
